@@ -1,0 +1,134 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global */
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1C232B;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: medium;
+    text-transform: uppercase;
+    color: #6C7289;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: medium;
+    color: #6C7289;
+    line-height: 23px;
+}
+
+/* main set */
+body {
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2EAE2;
+}
+
+/* main for both rows/columns */
+.main-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 343px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* main img only */
+.main-one-part {
+    width: 100%;
+}
+
+.main-img {
+    background-image: url(./images/image-product-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+}
+
+/* main text and button */
+.main-second-part {
+    padding: 24px;
+}
+
+.main-sub {
+    margin-bottom: 12px;
+}
+
+.main-main {
+    margin-bottom: 16px;
+}
+
+.main-text {
+    margin-bottom: 24px;
+}
+
+.main-prices {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 20px;
+}
+
+.main-price {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #3D8168;
+}
+
+.main-price-action {
+    font-size: 13px;
+    font-weight: medium;
+    color: #6C7289;
+    text-decoration: line-through;
+}
+
+.main-btn::before {
+    content: url(./images/icon-cart.svg);
+    height: 16px;
+    margin-right: 11px;
+}
+
+.main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #3D8168;
+    color: #FFF;
+    border-radius: 8px;
+}
+
+.main-btn:hover {
+    background-color: #1A4032;
+    cursor: pointer;
+}

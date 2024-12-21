@@ -1,0 +1,26 @@
+/* desktop view */
+@media screen and (min-width: 768px) {
+    .main-all {
+        max-width: 600px;
+        height: 450px;
+        flex-direction: row;
+    }
+
+    /* set 50% columns */
+    .main-one-part,
+    .main-second-part {
+        width: 50%;
+        height: 100%;
+    }
+
+    /* change main img to desktop version */
+    .main-img {
+        background-image: url(./images/image-product-desktop.jpg);
+        height: 100%;
+    }
+
+    /* change margin */
+    .main-prices {
+        margin-bottom: 30px;
+    }
+}
