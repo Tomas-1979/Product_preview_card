@@ -1,5 +1,6 @@
 /* desktop view */
 @media screen and (min-width: 768px) {
+
     .main-all {
         max-width: 600px;
         height: 450px;
@@ -19,11 +20,28 @@
         height: 100%;
     }
 
+    /* change padding and margin */
+
+    .main-second-part {
+        padding: 32px;
+    }
+
+    .main-sub {
+        margin-bottom: 20px;
+    }
+
+    .main-main {
+        margin-bottom: 24px;
+    }
+
     .main-text {
         margin-bottom: 30px;
     }
 
-    /* change margin */
+    .main-text {
+        margin-bottom: 30px;
+    }
+
     .main-prices {
         margin-bottom: 30px;
     }
